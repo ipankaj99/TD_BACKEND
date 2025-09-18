@@ -31,6 +31,10 @@ app.use(
 // Connect DB
 server();
 
+app.get("/", (res, res)=>{
+  res.send("backend is running");
+})
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 

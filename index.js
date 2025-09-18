@@ -31,7 +31,7 @@ app.use(
 // Connect DB
 server();
 
-app.get("/", (res, res)=>{
+app.get("/", (req, res)=>{
   res.send("backend is running");
 })
 
